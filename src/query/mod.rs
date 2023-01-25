@@ -34,6 +34,7 @@ pub use tantivy_query_grammar::Occur;
 pub use self::all_query::{AllQuery, AllScorer, AllWeight};
 pub use self::automaton_weight::AutomatonWeight;
 pub use self::bitset::BitSetDocSet;
+pub use self::bm25::set_bm25_parameters;
 pub(crate) use self::bm25::Bm25Weight;
 pub use self::boolean_query::BooleanQuery;
 pub(crate) use self::boolean_query::BooleanWeight;
